@@ -1,0 +1,11 @@
+                               Table "public.gen_data"
+  Column  |         Type          | Modifiers | Storage  | Stats target | Description 
+----------+-----------------------+-----------+----------+--------------+-------------
+ gen_name | character varying(15) |           | extended |              | 
+ qtr      | integer               |           | plain    |              | 
+ hour     | integer               |           | plain    |              | 
+ cost     | numeric(8,2)          |           | main     |              | 
+ min_vol  | numeric(10,1)         |           | main     |              | 
+ max_vol  | numeric(10,1)         |           | main     |              | 
+ region   | character varying(10) |           | extended |              | 
+

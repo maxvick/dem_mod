@@ -1,0 +1,13 @@
+Sun 28 Oct:
+progress:
+   - have created table structure for gen data in psql
+   - have got pandas loaded in py3
+   - have determined that I will keep data in pandas DataFrames for now
+   - have notes in one of the python files for how to loop, need a loop for finishing interstate balancing
+   
+to do:
+   - create dummy datatables to test the program
+   - need to determine the tests I want to run, i.e. what to check for:
+      * ability to check input and flag errors if input incorrect
+      * test scenario with pre-determined outputs to check if a scenario works
+      * following that I should have other ideas to make it more general
